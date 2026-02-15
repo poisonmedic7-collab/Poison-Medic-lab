@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>POISON MEDIC HQ</title>
+
+<style>
+body{
+    margin:0;
+    background:black;
+    color:#6AFFB2;
+    font-family:monospace;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    text-align:center;
+    overflow:hidden;
+}
+
+/* Faint background logo */
+body::before{
+    content:"";
+    position:absolute;
+    width:600px;
+    height:600px;
+    background:url("logo.png") no-repeat center;
+    background-size:contain;
+    opacity:0.05;   /* faint */
+    z-index:0;
+}
+
+h1{
+    font-size:3rem;
+    letter-spacing:4px;
+    z-index:1;
+}
+p{
+    z-index:1;
+}
+</style>
+</head>
+
+<body>
+
+<div>
+    <h1>POISON MEDIC HQ</h1>
+    <p>Headquarters Online</p>
+</div>
+
+</body>
+</html>
